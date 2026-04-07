@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 export default function Sidebar() {
   return (
     <div className="sidebar">
-      <h2>🏠 PIE</h2>
+      <h2> AURA</h2>
 
       <nav>
 

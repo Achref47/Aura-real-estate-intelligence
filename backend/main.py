@@ -83,7 +83,7 @@ def predict(data: PropertyInput):
 
 @app.get("/")
 def root():
-    return {"message": "PIE Backend Running 🚀"}
+    return {"message": "AURA Backend Running 🚀"}
 
 
 # ----------------------------------
@@ -107,7 +107,7 @@ def valuate_property(data: PropertyInput):
 
     input_dict = preprocess_input(data.dict())
 
-    # STEP 1: PIE
+    # STEP 1: AURA
     pie_result = run_pie(input_dict)
 
     # STEP 2: FPI (valuation)
@@ -154,7 +154,7 @@ def generate_report():
 
     # 👉 Use last computed values (or mock for now)
     report = f"""
-🏠 PROPERTY VALUATION REPORT (PIE – FPI ENGINE)
+🏠 PROPERTY VALUATION REPORT (AURA – FPI ENGINE)
 
 📌 Property Overview
 - Estimated Fair Price: $35888

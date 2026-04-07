@@ -55,7 +55,7 @@ def ask_ai(user_question: str, context: Optional[Dict[str, Any]] = None) -> str:
     seller_context = _format_context(context)
 
     prompt = f"""
-You are a professional real-estate seller intelligence assistant for PIE and Rezerva.
+You are a professional real-estate seller intelligence assistant for AURA and Rezerva.
 
 Your job:
 - Explain pricing strategy

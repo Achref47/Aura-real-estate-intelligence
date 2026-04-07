@@ -73,7 +73,7 @@ function BotBubble({ msg, isLast }: { msg: Message; isLast: boolean }) {
 
       <div className="bot-bubble-wrap">
         {/* Label */}
-        <span className="bubble-sender">PIE Assistant</span>
+        <span className="bubble-sender">AURA Assistant</span>
 
         <div className="chat-bubble bot-bubble">
           {displayed}
@@ -270,7 +270,7 @@ export default function AIAssistant() {
               </svg>
             </div>
             <div>
-              <div className="ai-header__title">PIE Assistant</div>
+              <div className="ai-header__title">AURA Assistant</div>
               <div className="ai-header__status">
                 <span className="status-dot" />
                 AI-powered property advisor
@@ -387,7 +387,7 @@ export default function AIAssistant() {
             )}
           </motion.button>
         </div>
-        <p className="input-hint">Press Enter to send · PIE AI analyses based on your property data</p>
+        <p className="input-hint">Press Enter to send · AURA AI analyses based on your property data</p>
       </div>
 
     </div>

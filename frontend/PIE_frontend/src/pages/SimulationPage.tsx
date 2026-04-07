@@ -232,7 +232,7 @@ export default function SimulationPage({ setGlobalResult }: { setGlobalResult?: 
       heightLeft -= pdfHeight;
     }
 
-    pdf.save("PIE_Valuation_Report.pdf");
+    pdf.save("AURA_Valuation_Report.pdf");
   }, []);
 
 
@@ -819,7 +819,7 @@ export default function SimulationPage({ setGlobalResult }: { setGlobalResult?: 
                 </div>
 
                 <p style={{ textAlign: "center", fontSize: "10px", color: "#ccc", fontFamily: "'DM Mono', monospace", letterSpacing: "0.12em", marginTop: "20px" }}>
-                  PIE — Property Intelligence Engine
+                  AURA — Property Intelligence Engine
                 </p>
               </div>
             )}
